@@ -1,0 +1,52 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "repository": "https://github.com/sergeialimov/koa-vue-mongo",
+  "author": "Sergei Alimov",
+  "license": "UNLICENSED",
+  "private": false,
+  "keywords": ["koa", "typescript", "vue", "mongoose", "node.js", "jest"],
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "watch": "nodemon --watch src -e ts,tsx src/server.ts",
+    "lint": "eslint src/**/*",
+    "lint-fix": "eslint --fix src/**/*",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/router": "^10.1.1",
+    "@types/config": "^0.0.39",
+    "config": "^3.3.6",
+    "joi": "^17.4.2",
+    "joi-to-swagger": "^6.0.1",
+    "koa": "^2.13.3",
+    "koa-bodyparser": "^4.3.0",
+    "koa-swagger-decorator": "^1.7.8",
+    "mongoose": "^6.0.11",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@shopify/jest-koa-mocks": "^3.0.5",
+    "@types/jest": "^27.0.2",
+    "@types/koa": "^2.13.4",
+    "@types/koa-bodyparser": "^4.3.3",
+    "@types/koa__cors": "^3.0.3",
+    "@types/koa__router": "^8.0.8",
+    "@types/mongoose": "^5.11.97",
+    "@types/sinon": "^10.0.6",
+    "@types/supertest": "^2.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint": "^8.0.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.1",
+    "eslint-plugin-import": "^2.25.2",
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.13",
+    "sinon": "^11.1.2",
+    "ts-jest": "^27.0.7",
+    "ts-node": "^10.4.0",
+    "ts-sinon": "^2.0.2"
+  }
+}

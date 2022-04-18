@@ -1,0 +1,7 @@
+node_modules
+.vscode
+yarn-error.log
+coverage
+config
+!config/default-dev.ts
+!config/default-test.ts
